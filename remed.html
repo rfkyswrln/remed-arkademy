@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="urut"></p>
+
+<script>
+var angka = ["1", "2", "3", "4", "7"];
+document.getElementById("urut").innerHTML = angka;
+
+function myFunction() {
+    angka[angka.length] = "7";
+    document.getElementById("urut").innerHTML = angka; 
+}
+</script>
+
+</body>
+</html>
